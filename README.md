@@ -127,6 +127,8 @@ Notação O–grande diz que uma função é menor que ou igual a outra função
 
 **20. Crie um gráfico explicando a notação O-Grande. Utilize f(n) = 2n + 4. Qual é um valor possível para n0?**
 
+![](https://github.com/RenanNovak/Exercicios_Analise_de_Algoritmos/blob/master/img/img20.jpg)
+
 N0 = 4
 
 &nbsp;
