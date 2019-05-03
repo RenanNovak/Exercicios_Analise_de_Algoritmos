@@ -49,13 +49,13 @@ Em uma função de complexidade o termo “n” é considerado como o compriment
 
 As operações primitivas de um algoritmo são:
 <p>
-·        Atribuição de valores a variáveis;
-·        Chamadas de métodos;
-·        Operações aritméticas;
-·        Comparação de dois números;
-·        Acesso a um arranjo;
-·        Seguimento de uma referência para um objeto;
-·        Retorno de um método.
+·        Atribuição de valores a variáveis;<br>
+·        Chamadas de métodos;<br>
+·        Operações aritméticas;<br>
+·        Comparação de dois números;<br>
+·        Acesso a um arranjo;<br>
+·        Seguimento de uma referência para um objeto;<br>
+·        Retorno de um método.<br>
 
 &nbsp;
 
