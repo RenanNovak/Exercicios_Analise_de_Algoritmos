@@ -67,79 +67,79 @@ Para cada valor de uma operação primitiva de um algoritmo é atribuído o valo
 
 **10. Desenvolva o pseudocódigo do algoritmo SOMA, que realiza a soma de dois números inteiros recebidos por parâmetro e tem como saída a resultado da operação. Identifique a sua função de complexidade de tempo.**
 
-1 - p <- a + b
-2 - retorna p;
-
-Sendo custo c1 e c2; 
-f(n) = c1 . 1 + c2 . 1 
-f(n) = 1 + 1 
+1 - p <- a + b<br>
+2 - retorna p;<br>
+<br>
+Sendo custo c1 e c2; <br>
+f(n) = c1 . 1 + c2 . 1 <br>
+f(n) = 1 + 1 <br>
 f(n) = 2
 
 &nbsp;
 
 **11. Desenvolva o pseudocódigo do algoritmo SOMA_VETOR, que realiza a soma de todos os elementos de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
-1 - soma <- 0;
-2 - N <- comprimento V;
-3 - para i <- 1 até N:
-4 -        soma <- soma + V[i]
-5 -        i <- i + 1
-6 - retorna soma;
-
-Sendo custo c1, c2, c3, c4, c5 e c6, o número de vezes no para(for) assume o valor de n, então: 
-f(n) = c1 . 1 + c2 . 1 + c3 . n + c4 . n + c5 . n + c6 . 1 
-f(n) = 1 + 1 + n + n + n + 1 
+1 - soma <- 0;<br>
+2 - N <- comprimento V;<br>
+3 - para i <- 1 até N:<br>
+4 -        soma <- soma + V[i]<br>
+5 -        i <- i + 1<br>
+6 - retorna soma;<br>
+<br>
+Sendo custo c1, c2, c3, c4, c5 e c6, o número de vezes no para(for) assume o valor de n, então: <br>
+f(n) = c1 . 1 + c2 . 1 + c3 . n + c4 . n + c5 . n + c6 . 1 <br>
+f(n) = 1 + 1 + n + n + n + 1 <br>
 f(n) = 3n + 3
 
 &nbsp;
 
 **12. Desenvolva o pseudocódigo do algoritmo CONTAGEM_IMPARES, que realiza a contagem de números impares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
-1 - cont <- 0;
-2 - N < comprimento V;
-3 - para i <- 1 até N:
-4 -        se V[i]%2 != 0:
-5 -           cont <- cont + 1
-7 -        i <- i + 1
-8 - retorna cont;
-
-Sendo custo c1, c2, c3, c4, c5, c6 e c7, o número de vezes no para(for) e se(if) assume o valor de n, então: 
-f(n) = c1 . 1 + c2 . 1 + c3 . n + c4 . n + c5 . n + c6 . n + c7 . 1 
-f(n) = 1 + 1 + n + n + n + n + 1 
+1 - cont <- 0;<br>
+2 - N < comprimento V;<br>
+3 - para i <- 1 até N:<br>
+4 -        se V[i]%2 != 0:<br>
+5 -           cont <- cont + 1<br>
+7 -        i <- i + 1<br>
+8 - retorna cont;<br>
+<br>
+Sendo custo c1, c2, c3, c4, c5, c6 e c7, o número de vezes no para(for) e se(if) assume o valor de n, então: <br>
+f(n) = c1 . 1 + c2 . 1 + c3 . n + c4 . n + c5 . n + c6 . n + c7 . 1 <br>
+f(n) = 1 + 1 + n + n + n + n + 1 <br>
 f(n) = 4n + 3
 
 &nbsp;
 
 **13. Desenvolva o pseudocódigo do algoritmo SOMA_MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
-1 - soma <- 0;
-2 - N <- comprimento M;
-3 - para i <- até N:
-4 -        para j <- 1 até N:
-5 -             soma <- soma + M[i][j]
-6 -             j <- j + 1
-7 -        i <- i + 1
-8 - retorna soma;
-
-Sendo custo c1, c2, c3, c4, c5, c6, c7 e c8, o número de vezes no para(for) assume o valor de n, para o para(for) dentro do outro para(for), o número de vezes assume o valor de n . n, então: 
-f(n) = 1 + 1 + n + n * n + n * n + n * n + n + 1 
+1 - soma <- 0;<br>
+2 - N <- comprimento M;<br>
+3 - para i <- até N:<br>
+4 -        para j <- 1 até N:<br>
+5 -             soma <- soma + M[i][j]<br>
+6 -             j <- j + 1<br>
+7 -        i <- i + 1<br>
+8 - retorna soma;<br>
+<br>
+Sendo custo c1, c2, c3, c4, c5, c6, c7 e c8, o número de vezes no para(for) assume o valor de n, para o para(for) dentro do outro para(for), o número de vezes assume o valor de n . n, então: <br>
+f(n) = 1 + 1 + n + n * n + n * n + n * n + n + 1 <br>
 f(n) = 3n² + 2n + 3
 
 &nbsp;
 
 **14. Desenvolva o pseudocódigo do algoritmo BUSCA_MATRIZ, que identifica posição x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y. Identifique a sua função de complexidade de tempo.**
 
-1 - N <- comprimento M;
-2 - para i <- 1 até N:
-3 -        para j <- 1 até N:
-4 -             se M[i][j] = V:
-5 -                retorna M[i][j];
-6 -             j <- j + 1
-7 -        i <- i + 1
-8 - retorna M;
-
-Sendo custo c1, c2, c3, c4, c5, c6, c7 e c8, o número de vezes no para(for) assume o valor de n, para o para(for) dentro do outro para(for) e o se(if), o número de vezes assume o valor de n . n, então: 
-f(n) = 1 + n + n² + n² + n² + n² + n + 1 
+1 - N <- comprimento M;<br>
+2 - para i <- 1 até N:<br>
+3 -        para j <- 1 até N:<br>
+4 -             se M[i][j] = V:<br>
+5 -                retorna M[i][j];<br>
+6 -             j <- j + 1<br>
+7 -        i <- i + 1<br>
+8 - retorna M;<br>
+<br>
+Sendo custo c1, c2, c3, c4, c5, c6, c7 e c8, o número de vezes no para(for) assume o valor de n, para o para(for) dentro do outro para(for) e o se(if), o número de vezes assume o valor de n . n, então: <br>
+f(n) = 1 + n + n² + n² + n² + n² + n + 1 <br>
 f(n) = 4n² + 2n + 2
 
 &nbsp;
@@ -214,19 +214,19 @@ Notação O –pequeno diz que uma função é menor que a outra função g(n). 
 
 **25. Identifique o O-Grande dos algoritmos desenvolvidos nos problemas 10 até 14.**
 
-10- f(n)=2 
+10- f(n)=2 <br>
 O = 1
-
-11- f(n)=3n+3 
+<br>
+11- f(n)=3n+3 <br>
 O = n
-
-12- f(n)=4n+3 
+<br>
+12- f(n)=4n+3 <br>
 O = n
-
-13- f(n)=3n² + 2n + 3 
+<br>
+13- f(n)=3n² + 2n + 3 <br>
 O = n²
-
-14- f(n)=4n² + 2n + 2 
+<br>
+14- f(n)=4n² + 2n + 2 <br>
 O = n²
 
 &nbsp;
