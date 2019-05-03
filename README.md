@@ -158,35 +158,7 @@ Notação O –pequeno diz que uma função é menor que a outra função g(n). 
 
 **24. Passe a notação O-Grande e o-pequeno as funções abaixo:**
 
-**A) F(n) = n + 1** - TERMINAR
-
-&nbsp;
-
-**B) F(n) = 8** - TERMINAR
-
-&nbsp;
-
-**C) F(n) = 2n² − 1** - TERMINAR
-
-&nbsp;
-
-**D) F(n) = nlogn** - TERMINAR
-
-&nbsp;
-
-**E) F(n) = 3n! + 2n** - TERMINAR
-
-&nbsp;
-
-**F) F(n) = 3n³ + 2n² + 4n + 6** - TERMINAR
-
-&nbsp;
-
-**G) F(n) = 5^n + 11** - TERMINAR
-
-&nbsp;
-
-**H) F(n) = 3logn** - TERMINAR
+![](https://github.com/RenanNovak/Exercicios_Analise_de_Algoritmos/blob/master/img/img24.jpg)
 
 &nbsp;
 
