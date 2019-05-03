@@ -216,16 +216,16 @@ Notação O –pequeno diz que uma função é menor que a outra função g(n). 
 
 10- f(n)=2 <br>
 O = 1
-<br>
+<br><br>
 11- f(n)=3n+3 <br>
 O = n
-<br>
+<br><br>
 12- f(n)=4n+3 <br>
 O = n
-<br>
+<br><br>
 13- f(n)=3n² + 2n + 3 <br>
 O = n²
-<br>
+<br><br><br>
 14- f(n)=4n² + 2n + 2 <br>
 O = n²
 
