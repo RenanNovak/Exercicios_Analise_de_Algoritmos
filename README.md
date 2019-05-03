@@ -225,7 +225,7 @@ O = n
 <br><br>
 13- f(n)=3n² + 2n + 3 <br>
 O = n²
-<br><br><br>
+<br><br>
 14- f(n)=4n² + 2n + 2 <br>
 O = n²
 
