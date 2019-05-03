@@ -150,7 +150,7 @@ Onde R+ é o conjunto dos reais não negativos.
 
 **23. Crie um gráfico explicando a notação o-pequeno?**
 
-TERMINAR GRAFICO
+![](https://github.com/RenanNovak/Exercicios_Analise_de_Algoritmos/blob/master/img/img23.jpg)
 
 Notação O –pequeno diz que uma função é menor que a outra função g(n). Ou seja, f é dominada por g assintoticamente. A diferença entre Big-Oh e Little-Oh é análoga àquela entre ≤ e <.  
 
