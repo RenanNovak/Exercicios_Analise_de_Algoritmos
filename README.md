@@ -48,6 +48,7 @@ Em uma função de complexidade o termo “n” é considerado como o compriment
 **8. Quais são as operações primitivas de um algoritmo?**
 
 As operações primitivas de um algoritmo são:
+<p>
 ·        Atribuição de valores a variáveis;
 ·        Chamadas de métodos;
 ·        Operações aritméticas;
@@ -66,29 +67,80 @@ Para cada valor de uma operação primitiva de um algoritmo é atribuído o valo
 
 **10. Desenvolva o pseudocódigo do algoritmo SOMA, que realiza a soma de dois números inteiros recebidos por parâmetro e tem como saída a resultado da operação. Identifique a sua função de complexidade de tempo.**
 
-TERMINAR
+1 - p <- a + b
+2 - retorna p;
+
+Sendo custo c1 e c2; 
+f(n) = c1 . 1 + c2 . 1 
+f(n) = 1 + 1 
+f(n) = 2
+
+&nbsp;
 
 **11. Desenvolva o pseudocódigo do algoritmo SOMA_VETOR, que realiza a soma de todos os elementos de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
-TERMINAR
+1 - soma <- 0;
+2 - N <- comprimento V;
+3 - para i <- 1 até N:
+4 -        soma <- soma + V[i]
+5 -        i <- i + 1
+6 - retorna soma;
+
+Sendo custo c1, c2, c3, c4, c5 e c6, o número de vezes no para(for) assume o valor de n, então: 
+f(n) = c1 . 1 + c2 . 1 + c3 . n + c4 . n + c5 . n + c6 . 1 
+f(n) = 1 + 1 + n + n + n + 1 
+f(n) = 3n + 3
 
 &nbsp;
 
 **12. Desenvolva o pseudocódigo do algoritmo CONTAGEM_IMPARES, que realiza a contagem de números impares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
-TERMINAR
+1 - cont <- 0;
+2 - N < comprimento V;
+3 - para i <- 1 até N:
+4 -        se V[i]%2 != 0:
+5 -           cont <- cont + 1
+7 -        i <- i + 1
+8 - retorna cont;
+
+Sendo custo c1, c2, c3, c4, c5, c6 e c7, o número de vezes no para(for) e se(if) assume o valor de n, então: 
+f(n) = c1 . 1 + c2 . 1 + c3 . n + c4 . n + c5 . n + c6 . n + c7 . 1 
+f(n) = 1 + 1 + n + n + n + n + 1 
+f(n) = 4n + 3
 
 &nbsp;
 
 **13. Desenvolva o pseudocódigo do algoritmo SOMA_MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
-TERMINAR
+1 - soma <- 0;
+2 - N <- comprimento M;
+3 - para i <- até N:
+4 -        para j <- 1 até N:
+5 -             soma <- soma + M[i][j]
+6 -             j <- j + 1
+7 -        i <- i + 1
+8 - retorna soma;
+
+Sendo custo c1, c2, c3, c4, c5, c6, c7 e c8, o número de vezes no para(for) assume o valor de n, para o para(for) dentro do outro para(for), o número de vezes assume o valor de n . n, então: 
+f(n) = 1 + 1 + n + n * n + n * n + n * n + n + 1 
+f(n) = 3n² + 2n + 3
 
 &nbsp;
 
 **14. Desenvolva o pseudocódigo do algoritmo BUSCA_MATRIZ, que identifica posição x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y. Identifique a sua função de complexidade de tempo.**
 
-TERMINAR
+1 - N <- comprimento M;
+2 - para i <- 1 até N:
+3 -        para j <- 1 até N:
+4 -             se M[i][j] = V:
+5 -                retorna M[i][j];
+6 -             j <- j + 1
+7 -        i <- i + 1
+8 - retorna M;
+
+Sendo custo c1, c2, c3, c4, c5, c6, c7 e c8, o número de vezes no para(for) assume o valor de n, para o para(for) dentro do outro para(for) e o se(if), o número de vezes assume o valor de n . n, então: 
+f(n) = 1 + n + n² + n² + n² + n² + n + 1 
+f(n) = 4n² + 2n + 2
 
 &nbsp;
 
@@ -99,7 +151,6 @@ Objetivo de compreender o tempo de execução para entradas grandes. Ou seja, é
 &nbsp;
 
 **16. Qual é o processo da análise assintótica? Crie um exemplo.**
-
 
 ![](https://github.com/RenanNovak/Exercicios_Analise_de_Algoritmos/blob/master/img/img16.jpg)
 
@@ -147,7 +198,6 @@ Onde R+ é o conjunto dos reais não negativos.
 
 &nbsp;
 
-
 **23. Crie um gráfico explicando a notação o-pequeno?**
 
 ![](https://github.com/RenanNovak/Exercicios_Analise_de_Algoritmos/blob/master/img/img23.jpg)
@@ -164,9 +214,19 @@ Notação O –pequeno diz que uma função é menor que a outra função g(n). 
 
 **25. Identifique o O-Grande dos algoritmos desenvolvidos nos problemas 10 até 14.**
 
-TERMINAR
+10- f(n)=2 
+O = 1
 
+11- f(n)=3n+3 
+O = n
 
+12- f(n)=4n+3 
+O = n
 
+13- f(n)=3n² + 2n + 3 
+O = n²
 
+14- f(n)=4n² + 2n + 2 
+O = n²
 
+&nbsp;
