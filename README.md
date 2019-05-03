@@ -100,6 +100,7 @@ Objetivo de compreender o tempo de execução para entradas grandes. Ou seja, é
 
 **16. Qual é o processo da análise assintótica? Crie um exemplo.**
 
+
 ![](https://github.com/RenanNovak/Exercicios_Analise_de_Algoritmos/blob/master/img/img16.jpg)
 
 &nbsp;
@@ -147,44 +148,51 @@ Onde R+ é o conjunto dos reais não negativos.
 
 **23. Crie um gráfico explicando a notação o-pequeno?**
 
+TERMINAR GRAFICO
+
 Notação O –pequeno diz que uma função é menor que a outra função g(n). Ou seja, f é dominada por g assintoticamente. A diferença entre Big-Oh e Little-Oh é análoga àquela entre ≤ e <.  
 
 &nbsp;
 
 **24. Passe a notação O-Grande e o-pequeno as funções abaixo:**
 
-**A) F(n) = n + 1**
+**A) F(n) = n + 1** - TERMINAR
 
 &nbsp;
 
-**B) F(n) = 8**
+**B) F(n) = 8** - TERMINAR
 
 &nbsp;
 
-**C) F(n) = 2n² − 1**
+**C) F(n) = 2n² − 1** - TERMINAR
 
 &nbsp;
 
-**D) F(n) = nlogn**
+**D) F(n) = nlogn** - TERMINAR
 
 &nbsp;
 
-**E) F(n) = 3n! + 2n**
+**E) F(n) = 3n! + 2n** - TERMINAR
 
 &nbsp;
 
-**F) F(n) = 3n³ + 2n² + 4n + 6**
+**F) F(n) = 3n³ + 2n² + 4n + 6** - TERMINAR
 
 &nbsp;
 
-**G) F(n) = 5^n + 11**
+**G) F(n) = 5^n + 11** - TERMINAR
 
 &nbsp;
 
-**H) F(n) = 3logn**
+**H) F(n) = 3logn** - TERMINAR
 
 &nbsp;
 
 **25. Identifique o O-Grande dos algoritmos desenvolvidos nos problemas 10 até 14.**
 
 TERMINAR
+
+
+
+
+
